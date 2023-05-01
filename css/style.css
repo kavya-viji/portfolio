@@ -39,6 +39,11 @@ section
     width: 100%;
     min-height: 100vh;
 }
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* #about{
     display: flex;
