@@ -237,7 +237,9 @@ background: radial-gradient(circle, rgba(116,203,215,1) 0%, rgba(183,107,187,0.9
 #contact{
     background: rgb(155,233,231);
 background: radial-gradient(circle, rgba(155,233,231,1) 0%, rgba(107,117,187,0.9781162464985994) 100%);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #contact .new{
     /* margin-top: 80px; */
@@ -261,6 +263,10 @@ margin-bottom: 50px;
     margin-top: 100px;
     font-family:'Times New Roman', Times, serif;
     font-size: 80px;
+}
+#contact iframe{
+    width: 300px;
+    height: 300px;
 }
 }
 
